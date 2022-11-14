@@ -47,16 +47,22 @@ export default function Home() {
           </ul>
         </nav>
         <section className="drop-shadow-lg shadow-lg p-10 max-w-full">
-          <div className="text-center">
-            <h2 className="text-5xl text-teal-600 font-medium">Abu </h2>
-            <h3 className="text-2xl py-2">Software Engineer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
-              Software Engineer with expertise in RPA and Full Stack Web
-              Development. My journey started in 2018 when I transitioned from
+          <div>
+            <h2 className="text-5xl text-teal-600 font-medium text-center">
+              Abu
+            </h2>
+            <h3 className="text-2xl py-2 text-center">Software Engineer</h3>
+          </div>
+          <div className="text-md py-5 leading-8 text-gray-800">
+            <p className="py-3">
+              Software Engineer with expertise in RPA and Fullstack web
+              development. My journey started in 2018 when I transitioned from
               being a Corporate Accountant to an RPA Developer at Prologis.
+            </p>
+            <p className="py-3 text">
               Since then, I have been able to earn a M.S. in Information Systems
               from the University Of Colorado Denver in 2020 and have become
-              well versed in RPA and Web Development
+              well versed in RPA and Web Development.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16">
@@ -87,14 +93,12 @@ export default function Home() {
               </a>
 
               <p className="py-2">
-                An e-commerce website I developed for customers to buy fashion
-                products
+                An e-commerce website I developed for customers to buy clothing
+                products.
               </p>
               <h4 className="py-1 mt-2 text-teal-600 font-bold">Tech Used:</h4>
               <p className="text-gray-800 py-1">React (Front-End)</p>
               <p className="text-gray-800 py-1">Firebase (Back-End)</p>
-              <p className="text-gray-800 py-1">Github (Repo)</p>
-              <p className="text-gray-800 py-1">Netlify (Hosting Service)</p>
             </div>
           </div>
         </section>
