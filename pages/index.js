@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 
 import { FaLaptopCode } from "react-icons/fa";
-import { AiFillGithub, AiFillLinkedin, AiTwotoneMail } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import personalPhoto from "../public/personal.png";
 import ihsaan from "../public/ihsaan-clothing-home-page.png";
@@ -57,7 +57,7 @@ export default function Home() {
               Software Engineer with expertise in RPA and Full Stack Web
               Development. Journey started in 2018 when I transitioned from
               being a Corporate Accountant to an RPA Developer at Prologis.
-              Since then, I've been able to earn a M.S. in Information Systems
+              Since then, I have been able to earn a M.S. in Information Systems
               from the University Of Colorado Denver in 2020.
             </p>
           </div>
@@ -114,15 +114,15 @@ export default function Home() {
           </h1>
           <div>
             <p className="text-md py-2 leading-8 text-black-800 dark:text-black-200">
-              Since the beginning of my journey as a Software Engineer, I've
-              been continually learning. In the RPA space, I've been able to
+              Since the beginning of my journey as a Software Engineer, I have
+              been continually learning. In the RPA space, I have been able to
               learn and master two of the biggest RPA technologies - UiPath and
               Blue Prism and earned certificates in both of them. In the cloud
-              space, I've gotten the opportunity to use AWS, Google Cloud, and
-              Microsoft Azure. In the backend space, I've worked in Node.js for
-              two years at Olive AI using Typescript, MongoDB, and AWS EC2s to
-              run bots I developed. Now, I'm developing web apps doing fullstack
-              engineering.
+              space, I have gotten the opportunity to use AWS, Google Cloud, and
+              Microsoft Azure. In the backend space, I have worked in Node.js
+              for two years at Olive AI using Typescript, MongoDB, and AWS EC2s
+              to run bots I developed. Now, I am developing web apps doing
+              fullstack engineering.
             </p>
           </div>
         </section>
