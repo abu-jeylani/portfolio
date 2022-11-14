@@ -5,7 +5,6 @@ import { FaLaptopCode } from "react-icons/fa";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import ihsaan from "../public/ihsaan-clothing-home-page.png";
-import personalPhoto from "../public/personal.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
