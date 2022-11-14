@@ -55,7 +55,7 @@ export default function Home() {
             <p className="py-3">
               Software Engineer with expertise in RPA and Full Stack Web
               Development. My journey started in 2018 when I transitioned from
-              being a Corporate Accountant to an RPA Developer at Prologis.
+              being a Corporate Accountant to a Software Engineer.
             </p>
             <p className="py-3 text">
               Since then, I have been able to earn a M.S. in Information Systems
