@@ -90,7 +90,7 @@ export default function Home() {
                 An e-commerce website I developed for customers to buy fashion
                 products
               </p>
-              <h4 className="py-4 text-teal-600">Tech Used:</h4>
+              <h4 className="py-1 mt-2 text-teal-600 font-bold">Tech Used:</h4>
               <p className="text-gray-800 py-1">React (Front-End)</p>
               <p className="text-gray-800 py-1">Firebase (Back-End)</p>
               <p className="text-gray-800 py-1">Github (Repo)</p>
