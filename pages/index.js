@@ -5,6 +5,8 @@ import { FaLaptopCode } from "react-icons/fa";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import ihsaan from "../public/ihsaan-clothing-home-page.png";
+import personalPhoto from "../public/personal.png";
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -37,7 +39,7 @@ export default function Home() {
           <ul className="flex items-center">
             <li>
               <a
-                className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 cursor-pointer"
+                className="bg-gradient-to-r from-black to-teal-600 text-white px-4 py-2 rounded-md ml-8 cursor-pointer"
                 onClick={downloadPDF}
               >
                 Resume
@@ -45,13 +47,13 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <section className="  drop-shadow-lg shadow-lg p-10 ">
+        <section className="drop-shadow-lg shadow-lg p-10 max-w-full">
           <div className="text-center">
             <h2 className="text-5xl text-teal-600 font-medium">Abu </h2>
             <h3 className="text-2xl py-2">Software Engineer</h3>
             <p className="text-md py-5 leading-8 text-gray-800">
               Software Engineer with expertise in RPA and Full Stack Web
-              Development. My jdourney started in 2018 when I transitioned from
+              Development. My journey started in 2018 when I transitioned from
               being a Corporate Accountant to an RPA Developer at Prologis.
               Since then, I have been able to earn a M.S. in Information Systems
               from the University Of Colorado Denver in 2020 and have become
@@ -62,7 +64,7 @@ export default function Home() {
             <a href="https://github.com/abu-jeylani">
               <AiFillGithub />
             </a>
-            <a href="https://www.linkedin.com/in/abu-m-5884a676/">
+            <a href="https://www.linkedin.com/in/abu-m-5884a676/IMG_7967">
               <AiFillLinkedin />
             </a>
           </div>
@@ -98,19 +100,19 @@ export default function Home() {
           </div>
         </section>
         <section className="py-10 text-center drop-shadow-lg shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-          <h1 className="text-lg mb-10">Quick Toot Of My Own Horn</h1>
           <div>
+            <h2 className="text-center text-2xl mb-3">Brief Overview</h2>
             <p className="text-md py-2 leading-8 text-black-800 dark:text-black-200">
               Since the beginning of my journey as a Software Engineer, I have
-              been continually learning. In the RPA space, I have been actively
-              I have been able learn and master two of the biggest RPA
-              technologies - UiPath and Blue Prism and have also earned
-              certificates in both of them. In the cloud space, I have gotten
-              the opportunity to use AWS, Google Cloud, and Microsoft Azure. In
-              the backend space, I worked in Node.js for two years at Olive AI
-              where I utilized Typescript, MongoDB, and AWS EC2s to run bots I
-              developed. Right now, I am utilizing my skills to develop web apps
-              doing fullstack engineering.
+              been actively learning. In the RPA space, I have been able learn
+              and master two of the biggest RPA technologies - UiPath and Blue
+              Prism and have also earned certificates in both of them. In the
+              cloud space, I have gotten the opportunity to use AWS and get the
+              AWS Cloud Practitioner certificate. In the backend space, I worked
+              in Node.js for two years at Olive AI where I utilized Typescript,
+              MongoDB, and AWS EC2s to run bots I developed. Right now, I am
+              utilizing my skills to develop web apps doing fullstack
+              engineering.
             </p>
           </div>
         </section>
