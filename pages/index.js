@@ -39,7 +39,7 @@ export default function Home() {
           <ul className="flex items-center">
             <li>
               <a
-                className="bg-gradient-to-r from-black to-teal-600 text-white px-4 py-2 rounded-md ml-8 cursor-pointer"
+                className="bg-gradient-to-r from-black to-gray-600 text-white px-4 py-2 rounded-md ml-8 cursor-pointer"
                 onClick={downloadPDF}
               >
                 Resume
@@ -57,7 +57,7 @@ export default function Home() {
               being a Corporate Accountant to an RPA Developer at Prologis.
               Since then, I have been able to earn a M.S. in Information Systems
               from the University Of Colorado Denver in 2020 and have become
-              well versed in RPA and Web Development.
+              well versed in RPA and Web Development
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16">
@@ -88,8 +88,8 @@ export default function Home() {
               </a>
 
               <p className="py-2">
-                An e-commerce website I developed for customers to buy and sell
-                fashion products
+                An e-commerce website I developed for customers to buy fashion
+                products
               </p>
               <h4 className="py-4 text-teal-600">Tech Used:</h4>
               <p className="text-gray-800 py-1">React (Front-End)</p>
@@ -97,23 +97,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">Github (Repo)</p>
               <p className="text-gray-800 py-1">Netlify (Hosting Service)</p>
             </div>
-          </div>
-        </section>
-        <section className="py-10 text-center drop-shadow-lg shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-          <div>
-            <h2 className="text-center text-2xl mb-3">Brief Overview</h2>
-            <p className="text-md py-2 leading-8 text-black-800 dark:text-black-200">
-              Since the beginning of my journey as a Software Engineer, I have
-              been actively learning. In the RPA space, I have been able learn
-              and master two of the biggest RPA technologies - UiPath and Blue
-              Prism and have also earned certificates in both of them. In the
-              cloud space, I have gotten the opportunity to use AWS and get the
-              AWS Cloud Practitioner certificate. In the backend space, I worked
-              in Node.js for two years at Olive AI where I utilized Typescript,
-              MongoDB, and AWS EC2s to run bots I developed. Right now, I am
-              utilizing my skills to develop web apps doing fullstack
-              engineering.
-            </p>
           </div>
         </section>
       </main>
