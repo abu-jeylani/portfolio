@@ -51,7 +51,7 @@ export default function Home() {
             <h2 className="text-5xl text-teal-600 font-medium ">Abu</h2>
             <h3 className="text-2xl py-2">Software Engineer</h3>
           </div>
-          <div className="text-md py-5 leading-8 text-gray-800">
+          <div className="text-md py-5 leading-8 text-gray-800 text-center">
             <p className="py-3">
               Software Engineer with expertise in RPA and Full Stack Web
               Development. My journey started in 2018 when I transitioned from
