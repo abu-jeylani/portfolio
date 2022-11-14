@@ -48,10 +48,8 @@ export default function Home() {
         </nav>
         <section className="drop-shadow-lg shadow-lg p-10 max-w-full">
           <div>
-            <h2 className="text-5xl text-teal-600 font-medium text-center">
-              Abu
-            </h2>
-            <h3 className="text-2xl py-2 text-center">Software Engineer</h3>
+            <h2 className="text-5xl text-teal-600 font-medium ">Abu</h2>
+            <h3 className="text-2xl py-2">Software Engineer</h3>
           </div>
           <div className="text-md py-5 leading-8 text-gray-800">
             <p className="py-3">
