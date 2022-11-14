@@ -4,7 +4,6 @@ import { useState } from "react";
 import { FaLaptopCode } from "react-icons/fa";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
-import personalPhoto from "../public/personal.png";
 import ihsaan from "../public/ihsaan-clothing-home-page.png";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,14 +30,11 @@ export default function Home() {
 
       <main className="bg-white px-10">
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="text-xl font-burtons ">developedbyabu</h1>
+          <FaLaptopCode
+            className="w-10 h-6 "
+            onClick={() => setDarkMode(!darkMode)}
+          />
           <ul className="flex items-center">
-            <li>
-              <FaLaptopCode
-                className="w-10 h-6 "
-                onClick={() => setDarkMode(!darkMode)}
-              />
-            </li>
             <li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 cursor-pointer"
@@ -49,7 +45,7 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <section className=" min-h-screen text-center drop-shadow-lg shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+        <section className=" min-h-screen text-center drop-shadow-lg shadow-lg p-10 ">
           <div className="text-center p-10">
             <h2 className="text-5xl text-teal-600 font-medium">Abu </h2>
             <h3 className="text-2xl py-2">Software Engineer</h3>
@@ -61,21 +57,13 @@ export default function Home() {
               from the University Of Colorado Denver in 2020.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3">
+          <div className="text-5xl flex justify-center gap-16">
             <a href="https://github.com/abu-jeylani">
               <AiFillGithub />
             </a>
             <a href="https://www.linkedin.com/in/abu-m-5884a676/">
               <AiFillLinkedin />
             </a>
-          </div>
-          <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <Image
-              alt="Abu Headshot"
-              src={personalPhoto}
-              layout="fill"
-              objectFit="cover"
-            />
           </div>
         </section>
         <section className="py-2">
