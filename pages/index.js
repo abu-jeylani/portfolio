@@ -53,8 +53,8 @@ export default function Home() {
           </div>
           <div className="text-md py-5 leading-8 text-gray-800">
             <p className="py-3">
-              Software Engineer with expertise in RPA and Fullstack web
-              development. My journey started in 2018 when I transitioned from
+              Software Engineer with expertise in RPA and Fullstack Web
+              Development. My journey started in 2018 when I transitioned from
               being a Corporate Accountant to an RPA Developer at Prologis.
             </p>
             <p className="py-3 text">
