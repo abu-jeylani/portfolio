@@ -47,13 +47,13 @@ export default function Home() {
           </ul>
         </nav>
         <section className="drop-shadow-lg shadow-lg p-10 max-w-full">
-          <div>
+          <div className="text-center">
             <h2 className="text-5xl text-teal-600 font-medium ">Abu</h2>
             <h3 className="text-2xl py-2">Software Engineer</h3>
           </div>
           <div className="text-md py-5 leading-8 text-gray-800">
             <p className="py-3">
-              Software Engineer with expertise in RPA and Fullstack Web
+              Software Engineer with expertise in RPA and Full Stack Web
               Development. My journey started in 2018 when I transitioned from
               being a Corporate Accountant to an RPA Developer at Prologis.
             </p>
