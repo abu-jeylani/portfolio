@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 
 import { FaLaptopCode } from "react-icons/fa";
@@ -11,12 +10,9 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   const downloadPDF = () => {
-    // using Java Script method to get PDF file
     fetch("Resume 2022.pdf").then((response) => {
       response.blob().then((blob) => {
-        // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
         alink.download = "Resume 2022.pdf";
@@ -74,7 +70,12 @@ export default function Home() {
             </a>
           </div>
           <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-            <Image src={personalPhoto} layout="fill" objectFit="cover" />
+            <Image
+              alt="Abu Headshot"
+              src={personalPhoto}
+              layout="fill"
+              objectFit="cover"
+            />
           </div>
         </section>
         <section className="py-2">
@@ -82,6 +83,7 @@ export default function Home() {
             <div className="text-center drop-shadow-lg shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <a href="https://ihsaan-clothing.netlify.app/">
                 <Image
+                  alt="ihsaan app"
                   src={ihsaan}
                   width={400}
                   height={100}
