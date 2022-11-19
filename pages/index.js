@@ -1,11 +1,9 @@
 import Head from "next/head";
 import { useState } from "react";
 
-import { FaLaptopCode } from "react-icons/fa";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsFillMoonFill } from "react-icons/bs";
 import Image from "next/image";
-import ihsaan from "../public/ihsaan-clothing-home-page.png";
 import personalPhoto from "../public/personal.png";
 
 export default function Home() {
