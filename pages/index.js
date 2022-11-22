@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { BiCloset } from "react-icons/bi";
 import { BsFillMoonFill } from "react-icons/bs";
 import Image from "next/image";
 import personalPhoto from "../public/personal.png";
@@ -65,8 +66,7 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Since then, I have been able to earn a M.S. in Information Systems
               from the University Of Colorado Denver in 2020 and have become
-              well versed in Robotic Process Automation and Web Development
-              through my experience over the years.
+              well versed in the two domains through experience,
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-black dark:text-gray-400">
@@ -79,6 +79,40 @@ export default function Home() {
           </div>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <Image src={personalPhoto} layout="fill" objectFit="cover" />
+          </div>
+        </section>
+        <section className="project-section">
+          <div className="text-center shadow-xl  dark:shadow-teal-900 p-10 rounded-xl my-20 mb-10 dark:bg-inherit flex-1">
+            <h2 className=" text-teal-600 font-extrabold"> Ihsaan Clothing</h2>
+            <BiCloset className="text-teal-600 text-4xl m-auto mt-5" />
+            <p className="py-2  dark:text-white">
+              A e-commerce website I developed that has features such as
+              creating an account, adding products to a cart, placing an order
+              and processing payment.
+              <a href="https://ihsaan-clothing.netlify.app/">
+                {" "}
+                Click <span className="text-teal-600">here</span> to check it
+                out.
+              </a>
+            </p>
+            <h4 className="py-4 text-teal-600 font-bold">
+              Development Tools I Used:
+            </h4>
+            <p className="text-gray-800 dark:text-white py-1">React</p>
+            <p className="text-gray-800  dark:text-white py-1">Firebase</p>
+            <p className="text-gray-800  dark:text-white py-1">
+              <a
+                href="https://github.com/abu-jeylani/ihsaan-clothing-v1"
+                className=" text-teal-600 "
+              >
+                Github
+              </a>
+            </p>
+          </div>
+        </section>
+        <section>
+          <div className="bg-inherit mx-auto text-center text-white dark:text-gray-900">
+            developedbyabu
           </div>
         </section>
       </main>
