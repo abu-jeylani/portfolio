@@ -82,36 +82,41 @@ export default function Home() {
           </div>
         </section>
         <section className="project-section">
-          <div className="text-center shadow-xl  dark:shadow-teal-900 p-10 rounded-xl my-20 mb-10 dark:bg-inherit flex-1">
+          <div className="text-center shadow-xl  dark:shadow-teal-900 p-10 rounded-xl my-20 mb-10 dark:bg-inherit flex-1 ">
             <h2 className=" text-teal-600 font-extrabold"> Ihsaan Clothing</h2>
             <BiCloset className="text-teal-600 text-4xl m-auto mt-5" />
             <p className="py-2  dark:text-white">
               A e-commerce website I developed that has features such as
               creating an account, adding products to a cart, placing an order
-              and processing payment.
-              <a href="https://ihsaan-clothing.netlify.app/">
-                {" "}
-                Click <span className="text-teal-600">here</span> to check it
-                out.
-              </a>
-            </p>
-            <h4 className="py-4 text-teal-600 font-bold">
-              Development Tools I Used:
-            </h4>
-            <p className="text-gray-800 dark:text-white py-1">React</p>
-            <p className="text-gray-800  dark:text-white py-1">Firebase</p>
-            <p className="text-gray-800  dark:text-white py-1">
+              and processing payment. Click{" "}
+              <a
+                href="https://ihsaan-clothing.netlify.app/"
+                className="text-teal-600 hover:text-teal-400"
+              >
+                here
+              </a>{" "}
+              to check out web app and click{" "}
               <a
                 href="https://github.com/abu-jeylani/ihsaan-clothing-v1"
-                className=" text-teal-600 "
+                className="text-teal-600 hover:text-teal-400"
               >
-                Github
-              </a>
+                here
+              </a>{" "}
+              to check out github repo.
+            </p>
+            <h4 className="pt-2 text-teal-600 font-bold">Frontend</h4>
+            <p className="text-gray-800 dark:text-white py-1">
+              React with hooks and redux-saga.
+            </p>
+            <h4 className="pt-2 text-teal-600 font-bold">Backend</h4>
+            <p className="text-gray-800  dark:text-white py-1">
+              Firebase, using firestore for the NoSQL DB and Authentication for
+              signup and signins.
             </p>
           </div>
         </section>
         <section>
-          <div className="bg-inherit mx-auto text-center text-white dark:text-gray-900">
+          <div className="bg-inherit mx-auto text-center text-white dark:text-gray-900 ">
             developedbyabu
           </div>
         </section>
