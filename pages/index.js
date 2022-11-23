@@ -74,7 +74,8 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
               Since then, I have been able to earn a M.S. in Information Systems
               from the University Of Colorado Denver in 2020 and have become
-              well versed in the two domains through experience,
+              well versed in the two domains throughout my professional
+              experience.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-black dark:text-gray-400  ">
@@ -92,7 +93,7 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110">
+        <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110 mb-20 bg-gray-900">
           <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 dark:bg-inherit flex-1 max-w-3xl  mx-auto ">
             <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
@@ -125,9 +126,9 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="text-center text-white dark:text-gray-900 ">
-            developedbyabu
-          </div>
+        </section>
+        <section>
+          <div className="h-20"></div>
         </section>
       </main>
     </div>
