@@ -92,7 +92,7 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section className=" mt-32 portfolio-section">
+        <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110">
           <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 dark:bg-inherit flex-1 max-w-3xl  mx-auto ">
             <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
@@ -125,7 +125,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="text-center text-white dark:text-gray-900">
+          <div className="text-center text-white dark:text-gray-900 ">
             developedbyabu
           </div>
         </section>
