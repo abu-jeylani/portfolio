@@ -30,16 +30,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="min-h-screen bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <nav className="py-10 mb-12 flex justify-between dark:text-white">
           <BsFillMoonFill
             onClick={() => setDarkMode(!darkMode)}
-            className=" cursor-pointer text-xl text-gra"
+            className=" cursor-pointer text-xl transition duration-200 hover:scale-125"
           />
           <ul className="flex items-center">
-            <li>
+            <li className="transition duration-200 hover:scale-110">
               <a
-                className="cursor-pointer bg-gradient-to-r from-teal-500 text- to-teal-600 dark:text-white-400 dark: text-white px-4 py-2 border-none rounded-md ml-8"
+                className="cursor-pointer bg-gradient-to-r from-teal-500 text- to-teal-600 dark:text-white-400 dark: text-white px-4 py-2 border-none rounded-md ml-8 transition duration-200 hover:scale-130"
                 onClick={downloadPDF}
               >
                 Resume
@@ -47,8 +47,8 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <section className="min-h-screen">
-          <div className="text-center p-10 py-10">
+        <section className="bio-section">
+          <div className="text-center p-10 py-10 ">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Abu
             </h2>
@@ -63,24 +63,29 @@ export default function Home() {
               transitioned from being a Corporate Accountant to a Software
               Engineer.
             </p>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
               Since then, I have been able to earn a M.S. in Information Systems
               from the University Of Colorado Denver in 2020 and have become
               well versed in the two domains through experience,
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-black dark:text-gray-400">
-            <a href="https://github.com/abu-jeylani">
+          <div className="text-5xl flex justify-center gap-16 py-3 text-black dark:text-gray-400  ">
+            <a
+              href="https://github.com/abu-jeylani"
+              className="transition duration-200 hover:scale-125"
+            >
               <AiFillGithub />
             </a>
-            <a href="https://www.linkedin.com/in/abu-m-5884a676/IMG_7967">
+            <a
+              href="https://www.linkedin.com/in/abu-m-5884a676/IMG_7967"
+              className="transition duration-200 hover:scale-125"
+            >
               <AiFillLinkedin />
             </a>
           </div>
-          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
-            <Image src={personalPhoto} layout="fill" objectFit="cover" />
-          </div>
-          <div className="text-center shadow-md  dark:shadow-teal-800 p-10 my-20 mb-10 dark:bg-inherit flex-1 max-w-3xl m-auto transition duration-200 hover:scale-105">
+        </section>
+        <section className=" mt-32 portfolio-section">
+          <div className="  text-center shadow-xl dark:shadow-md dark:shadow-teal-800 p-10 dark:bg-inherit flex-1 max-w-3xl  mx-auto transition duration-200 hover:scale-105">
             <h2 className=" text-teal-600 font-extrabold"> Ihsaan Clothing</h2>
             <BiCloset className="text-teal-600 text-4xl m-auto mt-5" />
             <p className="py-2  dark:text-white">
