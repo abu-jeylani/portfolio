@@ -3,9 +3,8 @@ import { useState } from "react";
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BiCloset } from "react-icons/bi";
-import { BsFillMoonFill } from "react-icons/bs";
-import Image from "next/image";
-import personalPhoto from "../public/personal.png";
+import { BsFillMoonFill, BsSun, BsCloudDownload } from "react-icons/bs";
+import { Button } from "@material-tailwind/react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -32,32 +31,41 @@ export default function Home() {
 
       <main className="min-h-screen bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <nav className="py-10 mb-12 flex justify-between dark:text-white">
-          <BsFillMoonFill
-            onClick={() => setDarkMode(!darkMode)}
-            className=" cursor-pointer text-xl transition duration-200 hover:scale-125"
-          />
-          <ul className="flex items-center">
-            <li className="transition duration-200 hover:scale-110">
+          {darkMode ? (
+            <BsSun
+              onClick={() => setDarkMode(!darkMode)}
+              className=" cursor-pointer text-xl transition duration-200 hover:scale-125"
+            />
+          ) : (
+            <BsFillMoonFill
+              onClick={() => setDarkMode(!darkMode)}
+              className=" cursor-pointer text-xl transition duration-200 hover:scale-125"
+            />
+          )}
+
+          <ul>
+            <li className="transition duration-200 hover:scale-110 text-center">
               <a
-                className="cursor-pointer bg-gradient-to-r from-teal-500 text- to-teal-600 dark:text-white-400 dark: text-white px-4 py-2 border-none rounded-md ml-8 transition duration-200 hover:scale-130"
+                className="cursor-pointer bg-gradient-to-r text-sm from-teal-500 text- to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 transition duration-200 hover:scale-130"
                 onClick={downloadPDF}
               >
-                Resume
+                Resume{" "}
+                <BsCloudDownload className=" ml-1  inline-block text-sm " />
               </a>
             </li>
           </ul>
         </nav>
         <section className="bio-section">
           <div className="text-center p-10 py-10 ">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl  text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Abu
             </h2>
-            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+            <h3 className="text-2xl py-4 dark:text-white md:text-3xl">
               Software Engineer
             </h3>
           </div>
-          <div className="text-md py-5 leading-8 text-gray-800 text-center">
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+          <div>
+            <p className="text-md  leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Software Engineer with expertise in Robotic Process Automation and
               Full Stack Web Development. My journey started in 2018 when I
               transitioned from being a Corporate Accountant to a Software
@@ -85,37 +93,37 @@ export default function Home() {
           </div>
         </section>
         <section className=" mt-32 portfolio-section">
-          <div className="  text-center shadow-xl dark:shadow-md dark:shadow-teal-800 p-10 dark:bg-inherit flex-1 max-w-3xl  mx-auto transition duration-200 hover:scale-105">
-            <h2 className=" text-teal-600 font-extrabold"> Ihsaan Clothing</h2>
-            <BiCloset className="text-teal-600 text-4xl m-auto mt-5" />
-            <p className="py-2  dark:text-white">
-              A e-commerce website I developed that has features such as
+          <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 dark:bg-inherit flex-1 max-w-3xl  mx-auto ">
+            <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
+            <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
+              {" "}
+              Ihsaan Clothing
+            </h2>
+            <p className="py-2 text-center  dark:text-white">
+              An e-commerce website I developed that has features such as
               creating an account, adding products to a cart, placing an order
-              and processing payment. Click{" "}
-              <a
-                href="https://ihsaan-clothing.netlify.app/"
-                className="text-teal-600 hover:text-teal-400"
-              >
-                here
-              </a>{" "}
-              to check out web app and click{" "}
-              <a
-                href="https://github.com/abu-jeylani/ihsaan-clothing-v1"
-                className="text-teal-600 hover:text-teal-400 "
-              >
-                here
-              </a>{" "}
-              to check out github repo.
+              and processing payment.
             </p>
-            <h4 className="pt-2 text-teal-600 font-bold">Frontend</h4>
-            <p className="text-gray-800 dark:text-white py-1">
+
+            <h4 className="pt-2 text-sm text-teal-600 text-center">Frontend</h4>
+            <p className="text-gray-800 text-sm dark:text-white py-1 text-center">
               React with hooks and redux-saga.
             </p>
-            <h4 className="pt-2 text-teal-600 font-bold">Backend</h4>
-            <p className="text-gray-800  dark:text-white py-1">
+            <h4 className="pt-2 text-teal-600 text-sm text-center">Backend</h4>
+            <p className="text-gray-800 text-sm  dark:text-white py-1 text-center">
               Firebase, using firestore for the NoSQL DB and Authentication for
               signup and signins.
             </p>
+            <div className="text-center pt-10">
+              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r  from-teal-500 t to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
+                <a href="https://ihsaan-clothing.netlify.app/"> WApp</a>{" "}
+              </button>
+              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
+                <a href="https://github.com/abu-jeylani/ihsaan-clothing-v1">
+                  Github
+                </a>
+              </button>
+            </div>
           </div>
           <div className="text-center text-white dark:text-gray-900">
             developedbyabu
