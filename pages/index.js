@@ -77,7 +77,7 @@ export default function Home() {
               <AiFillLinkedin />
             </a>
           </div>
-          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
             <Image src={personalPhoto} layout="fill" objectFit="cover" />
           </div>
         </section>
@@ -91,14 +91,14 @@ export default function Home() {
               and processing payment. Click{" "}
               <a
                 href="https://ihsaan-clothing.netlify.app/"
-                className="text-teal-600 hover:text-teal-400"
+                className="text-teal-500 hover:text-teal-400"
               >
                 here
               </a>{" "}
               to check out web app and click{" "}
               <a
                 href="https://github.com/abu-jeylani/ihsaan-clothing-v1"
-                className="text-teal-600 hover:text-teal-400"
+                className="text-teal-500 hover:text-teal-400 "
               >
                 here
               </a>{" "}
