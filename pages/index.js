@@ -80,7 +80,7 @@ export default function Home() {
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
             <Image src={personalPhoto} layout="fill" objectFit="cover" />
           </div>
-          <div className="text-center shadow-lg  dark:shadow-teal-800 p-10 my-20 mb-10 dark:bg-inherit flex-1 max-w-3xl m-auto">
+          <div className="text-center shadow-md  dark:shadow-teal-800 p-10 my-20 mb-10 dark:bg-inherit flex-1 max-w-3xl m-auto transition duration-200 hover:scale-105">
             <h2 className=" text-teal-600 font-extrabold"> Ihsaan Clothing</h2>
             <BiCloset className="text-teal-600 text-4xl m-auto mt-5" />
             <p className="py-2  dark:text-white">
