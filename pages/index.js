@@ -46,7 +46,7 @@ export default function Home() {
           <ul>
             <li className="transition duration-200 hover:scale-110 text-center">
               <a
-                className="cursor-pointer bg-gradient-to-r text-sm from-teal-500 text- to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-md ml-8 transition duration-200 hover:scale-130"
+                className="cursor-pointer bg-gradient-to-r text-sm from-teal-500 text- to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 transition duration-200 hover:scale-130"
                 onClick={downloadPDF}
               >
                 Resume{" "}
@@ -93,14 +93,14 @@ export default function Home() {
           </div>
         </section>
         <section className=" mt-32 portfolio-section">
-          <div className="shadow-inner  dark:shadow-inner dark:shadow-teal-800 p-10 dark:bg-inherit flex-1 max-w-3xl  mx-auto ">
+          <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 dark:bg-inherit flex-1 max-w-3xl  mx-auto ">
             <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
               {" "}
               Ihsaan Clothing
             </h2>
-            <p className="py-2  dark:text-white">
-              A e-commerce website I developed that has features such as
+            <p className="py-2 text-center  dark:text-white">
+              An e-commerce website I developed that has features such as
               creating an account, adding products to a cart, placing an order
               and processing payment.
             </p>
@@ -115,10 +115,10 @@ export default function Home() {
               signup and signins.
             </p>
             <div className="text-center pt-10">
-              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r  from-teal-500 t to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-md ml-8 ">
+              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r  from-teal-500 t to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
                 <a href="https://ihsaan-clothing.netlify.app/"> WApp</a>{" "}
               </button>
-              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-md ml-8 ">
+              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
                 <a href="https://github.com/abu-jeylani/ihsaan-clothing-v1">
                   Github
                 </a>
