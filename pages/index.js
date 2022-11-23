@@ -80,9 +80,7 @@ export default function Home() {
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
             <Image src={personalPhoto} layout="fill" objectFit="cover" />
           </div>
-        </section>
-        <section className="project-section">
-          <div className="text-center shadow-xl  dark:shadow-teal-900 p-10 rounded-xl my-20 mb-10 dark:bg-inherit flex-1 ">
+          <div className="text-center shadow-lg  dark:shadow-teal-800 p-10 rounded-xl my-20 mb-10 dark:bg-inherit flex-1">
             <h2 className=" text-teal-600 font-extrabold"> Ihsaan Clothing</h2>
             <BiCloset className="text-teal-600 text-4xl m-auto mt-5" />
             <p className="py-2  dark:text-white">
@@ -91,14 +89,14 @@ export default function Home() {
               and processing payment. Click{" "}
               <a
                 href="https://ihsaan-clothing.netlify.app/"
-                className="text-teal-500 hover:text-teal-400"
+                className="text-teal-600 hover:text-teal-400"
               >
                 here
               </a>{" "}
               to check out web app and click{" "}
               <a
                 href="https://github.com/abu-jeylani/ihsaan-clothing-v1"
-                className="text-teal-500 hover:text-teal-400 "
+                className="text-teal-600 hover:text-teal-400 "
               >
                 here
               </a>{" "}
@@ -114,9 +112,7 @@ export default function Home() {
               signup and signins.
             </p>
           </div>
-        </section>
-        <section>
-          <div className="bg-inherit mx-auto text-center text-white dark:text-gray-900 ">
+          <div className="text-center text-white dark:text-gray-900">
             developedbyabu
           </div>
         </section>
