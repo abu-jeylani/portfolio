@@ -93,8 +93,8 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110 mb-20 bg-gray-900">
-          <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 dark:bg-inherit flex-1 max-w-3xl  mx-auto ">
+        <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110 mb-20ark:bg-inherit">
+          <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
             <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
               {" "}
