@@ -93,13 +93,13 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110 mb-20ark:bg-inherit">
+        <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110 mb-20 dark:bg-inherit">
           <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
             <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
               Ihsaan Clothing
             </h2>
-            <p className="py-2 text-left  dark:text-white">
+            <p className="py-2 text-sm dark:text-white">
               An e-commerce website I developed that has features such as
               creating an account, adding products to a cart, placing an order
               and processing payment.
@@ -108,7 +108,7 @@ export default function Home() {
             <h4 className="pt-2 text-sm text-teal-600 text-center mb-2">
               Frontend
             </h4>
-            <p className="text-gray-800 text-sm dark:text-white py-1 text-left">
+            <p className="text-gray-800  text-sm dark:text-white py-1 text-left">
               React with hooks and redux-saga.
             </p>
             <h4 className="pt-2 text-teal-600 text-sm text-center mb-2">
