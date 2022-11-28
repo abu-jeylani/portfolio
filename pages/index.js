@@ -97,10 +97,9 @@ export default function Home() {
           <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
             <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
-              {" "}
               Ihsaan Clothing
             </h2>
-            <p className="py-2 text-center  dark:text-white">
+            <p className="py-2 text-left  dark:text-white">
               An e-commerce website I developed that has features such as
               creating an account, adding products to a cart, placing an order
               and processing payment.
