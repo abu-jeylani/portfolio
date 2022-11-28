@@ -65,7 +65,7 @@ export default function Home() {
             </h3>
           </div>
           <div>
-            <p className="text-md  leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-md leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Software Engineer with expertise in Robotic Process Automation and
               Full Stack Web Development. My journey started in 2018 when I
               transitioned from being a Corporate Accountant to a Software
@@ -99,7 +99,7 @@ export default function Home() {
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
               Ihsaan Clothing
             </h2>
-            <p className="py-2 text-sm dark:text-white">
+            <p className="py-2 sm:text-center text-sm dark:text-white">
               An e-commerce website I developed that has features such as
               creating an account, adding products to a cart, placing an order
               and processing payment.
@@ -108,13 +108,13 @@ export default function Home() {
             <h4 className="pt-2 text-sm text-teal-600 text-center mb-2">
               Frontend
             </h4>
-            <p className="text-gray-800  text-sm dark:text-white py-1 text-left">
+            <p className="text-gray-800 sm:text-center  text-sm dark:text-white py-1 ">
               React with hooks and redux-saga.
             </p>
             <h4 className="pt-2 text-teal-600 text-sm text-center mb-2">
               Backend
             </h4>
-            <p className="text-gray-800 text-sm  dark:text-white py-1 text-left">
+            <p className="text-gray-800 text-sm sm:text-center  dark:text-white py-1">
               Firebase, using firestore for the NoSQL DB and Authentication for
               signup and signins.
             </p>
@@ -122,7 +122,7 @@ export default function Home() {
               <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r  from-teal-500 t to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
                 <a href="https://ihsaan-clothing.netlify.app/"> WApp</a>{" "}
               </button>
-              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
+              <button className=" transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
                 <a href="https://github.com/abu-jeylani/ihsaan-clothing-v1">
                   Github
                 </a>
