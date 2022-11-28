@@ -105,12 +105,16 @@ export default function Home() {
               and processing payment.
             </p>
 
-            <h4 className="pt-2 text-sm text-teal-600 text-center">Frontend</h4>
-            <p className="text-gray-800 text-sm dark:text-white py-1 text-center">
+            <h4 className="pt-2 text-sm text-teal-600 text-center mb-2">
+              Frontend
+            </h4>
+            <p className="text-gray-800 text-sm dark:text-white py-1 text-left">
               React with hooks and redux-saga.
             </p>
-            <h4 className="pt-2 text-teal-600 text-sm text-center">Backend</h4>
-            <p className="text-gray-800 text-sm  dark:text-white py-1 text-center">
+            <h4 className="pt-2 text-teal-600 text-sm text-center mb-2">
+              Backend
+            </h4>
+            <p className="text-gray-800 text-sm  dark:text-white py-1 text-left">
               Firebase, using firestore for the NoSQL DB and Authentication for
               signup and signins.
             </p>
