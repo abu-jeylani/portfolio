@@ -5,7 +5,6 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BiCloset } from "react-icons/bi";
 import Image from "next/image";
 import { BsFillMoonFill, BsSun, BsCloudDownload } from "react-icons/bs";
-import { Button } from "@material-tailwind/react";
 import personalPhoto from "../public/pic2.png";
 
 export default function Home() {
