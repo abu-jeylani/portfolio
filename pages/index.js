@@ -69,7 +69,7 @@ export default function Home() {
             <p className="text-md leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Software Engineer with expertise in Robotic Process Automation and
               Full Stack Web Development. My journey started in 2018 when I got
-              my start as an Robotic Process Automation Engineer.
+              my start as a Robotic Process Automation Engineer.
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
               As of late, I have been fascinated with developing web apps and
