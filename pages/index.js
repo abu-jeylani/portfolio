@@ -93,7 +93,12 @@ export default function Home() {
             </a>
           </div>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 transition duration-200 hover:scale-110">
-            <Image src={personalPhoto} layout="fill" objectFit="cover" />
+            <Image
+              src={personalPhoto}
+              layout="fill"
+              objectFit="cover"
+              alt="abu"
+            />
           </div>
         </section>
         <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110 mb-20 dark:bg-inherit">
