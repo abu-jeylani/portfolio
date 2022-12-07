@@ -3,8 +3,10 @@ import { useState } from "react";
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BiCloset } from "react-icons/bi";
+import Image from "next/image";
 import { BsFillMoonFill, BsSun, BsCloudDownload } from "react-icons/bs";
 import { Button } from "@material-tailwind/react";
+import personalPhoto from "../public/pic2.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -67,15 +69,14 @@ export default function Home() {
           <div>
             <p className="text-md leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Software Engineer with expertise in Robotic Process Automation and
-              Full Stack Web Development. My journey started in 2018 when I
-              transitioned from being a Corporate Accountant to a Software
-              Engineer.
+              Full Stack Web Development. My journey started in 2018 when I got
+              my start as an Robotic Process Automation Engineer.
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
-              Since then, I have been able to earn a M.S. in Information Systems
-              from the University Of Colorado Denver in 2020 and have become
-              well versed in the two domains throughout my professional
-              experience.
+              As of late, I have been fascinated with developing web apps and
+              doing Full Stack Development. As you'll see below, the projects I
+              have been working on lately are React.js with various backend
+              setups.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-black dark:text-gray-400  ">
@@ -91,6 +92,9 @@ export default function Home() {
             >
               <AiFillLinkedin />
             </a>
+          </div>
+          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 transition duration-200 hover:scale-110">
+            <Image src={personalPhoto} layout="fill" objectFit="cover" />
           </div>
         </section>
         <section className=" mt-32 portfolio-section transition duration-200 hover:scale-110 mb-20 dark:bg-inherit">
