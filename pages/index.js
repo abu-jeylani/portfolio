@@ -73,9 +73,9 @@ export default function Home() {
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
               As of late, I have been fascinated with developing web apps and
-              doing Full Stack Development. As you'll see below, the projects I
-              have been working on lately are React.js with various backend
-              setups.
+              doing Full Stack Development. As you&apos;ll see below, the
+              projects I have been working on lately are React.js with various
+              backend setups.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-black dark:text-gray-400  ">
