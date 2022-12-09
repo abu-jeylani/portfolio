@@ -12,7 +12,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
   const downloadPDF = () => {
-    fetch("Resume 2022.pdf").then((response) => {
+    fetch("Resume.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
