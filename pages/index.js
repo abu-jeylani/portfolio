@@ -9,7 +9,7 @@ import { BsFillMoonFill, BsSun, BsCloudDownload } from "react-icons/bs";
 import personalPhoto from "../public/pic2.png";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const downloadPDF = () => {
     fetch("Resume.pdf").then((response) => {
@@ -31,7 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="min-h-screen bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="min-h-screen font-mono bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <nav className="py-10 mb-12 flex justify-between dark:text-white">
           {darkMode ? (
             <BsSun
@@ -58,21 +58,24 @@ export default function Home() {
           </ul>
         </nav>
         <section className="bio-section">
-          <div className="text-center p-10 py-10 ">
-            <h2 className="text-5xl  text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Abu
-            </h2>
-            <h3 className="text-2xl py-4 dark:text-white md:text-3xl">
-              Software Engineer
-            </h3>
-          </div>
           <div>
-            <p className="text-md leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl text-center">
-              Software Engineer with expertise in Robotic Process Automation and
-              Full Stack Web Development. My journey started in 2018 when I got
-              my start as a Robotic Process Automation Engineer.
-            </p>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl text-center">
+            <div className="pt-10 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto text-center">
+              <div className="mb-10">
+                <h1 className="mb-1 font-mono text-4xl text-black-100 md:text-6xl">
+                  <span className="inline-flex h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
+                    hi, I'm Abu 👋
+                  </span>
+                </h1>
+              </div>
+              <p className="text-md pb-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto  text-center">
+                {" "}
+                I'm a Software Engineer with expertise in Robotic Process
+                Automation and Full Stack Web Development. My journey started in
+                2018 when I got my start as a Robotic Process Automation
+                Engineer.
+              </p>
+            </div>
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto  text-center">
               As of late, I have been fascinated with developing web apps and
               doing Full Stack Development. As you&apos;ll see below, the
               projects I have been working on lately are React.js with various
@@ -102,7 +105,7 @@ export default function Home() {
             />
           </div>
         </section>
-        <section className="portfolio-section transition duration-200 hover:scale-110 mb-10 mt-20 dark:bg-inherit">
+        <section className="portfolio-section transition duration-200  mb-10 mt-20 dark:bg-inherit">
           <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
             <BsCalendarEvent className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
@@ -138,7 +141,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className=" portfolio-section transition duration-200 hover:scale-110 mb-1 dark:bg-inherit">
+        <section className=" portfolio-section transition duration-200 mb-1 dark:bg-inherit">
           <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
             <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
