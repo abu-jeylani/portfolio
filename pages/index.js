@@ -9,7 +9,7 @@ import { BsFillMoonFill, BsSun, BsCloudDownload } from "react-icons/bs";
 import personalPhoto from "../public/pic2.png";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const downloadPDF = () => {
     fetch("Resume.pdf").then((response) => {
