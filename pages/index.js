@@ -63,13 +63,13 @@ export default function Home() {
               <div className="mb-10">
                 <h1 className="mb-1 font-mono text-4xl text-black-100 md:text-6xl">
                   <span className="inline-flex h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
-                    hi, I'm Abu 👋
+                    hi, I&apos;m Abu 👋
                   </span>
                 </h1>
               </div>
               <p className="text-md pb-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto  text-center">
                 {" "}
-                I'm a Software Engineer with expertise in Robotic Process
+                I&apos;m a Software Engineer with expertise in Robotic Process
                 Automation and Full Stack Web Development. My journey started in
                 2018 when I got my start as a Robotic Process Automation
                 Engineer.
