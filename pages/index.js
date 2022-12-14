@@ -107,7 +107,7 @@ export default function Home() {
           </div>
         </section>
         <section className="portfolio-section transition duration-200  mb-10 mt-20 dark:bg-inherit">
-          <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
+          <div className="shadow-inner rounded-3xl  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
             <BsCalendarEvent className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
               Events.IO
@@ -130,11 +130,11 @@ export default function Home() {
             <p className="text-gray-800 text-sm text-center  dark:text-white py-1">
               Strapi.io & Postgres
             </p>
-            <div className="text-center pt-10">
-              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r  from-teal-500 t to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
+            <div className="flex justify-center mt-8 gap-x-8">
+              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r  from-teal-500 t to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ">
                 <a href="https://co-events-io.netlify.app/"> WApp</a>{" "}
               </button>
-              <button className=" transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
+              <button className=" transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ">
                 <a href="https://github.com/abu-jeylani/community-events-frontend">
                   Github
                 </a>
@@ -143,7 +143,7 @@ export default function Home() {
           </div>
         </section>
         <section className=" portfolio-section transition duration-200 mb-1 dark:bg-inherit">
-          <div className="shadow-inner rounded-lg  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
+          <div className="shadow-inner rounded-3xl  dark:shadow-inner dark:shadow-teal-800 p-10 d flex-1 max-w-3xl  mx-auto ">
             <BiCloset className="text-teal-600 text-4xl m-auto mb-5" />
             <h2 className=" text-teal-600 font-extrabold mb-6 text-center">
               Ihsaan Clothing
@@ -167,11 +167,11 @@ export default function Home() {
               Firebase, using firestore for the NoSQL DB and Authentication for
               signup and signins.
             </p>
-            <div className="text-center pt-10">
-              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r  from-teal-500 t to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
+            <div className="flex justify-center mt-8 gap-x-8">
+              <button className="transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r  from-teal-500 t to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg  ">
                 <a href="https://ihsaan-clothing.netlify.app/"> WApp</a>{" "}
               </button>
-              <button className=" transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg ml-8 ">
+              <button className=" transition duration-200 hover:scale-110 w-20 text-xs cursor-pointer bg-gradient-to-r from-teal-500  to-teal-600 dark:text-white-400 font-normal dark: text-white px-4 py-2 border-none rounded-lg">
                 <a href="https://github.com/abu-jeylani/ihsaan-clothing-v1">
                   Github
                 </a>
