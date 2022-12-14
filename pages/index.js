@@ -71,15 +71,15 @@ export default function Home() {
               <p className="text-sm pb-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto  text-center">
                 {" "}
                 I&apos;m a Software Engineer with expertise in Robotic Process
-                Automation and Full Stack Web Development. My journey started in
-                2018 when I got my start as a Robotic Process Automation
+                Automation and Full Stack Web Development. My journey began in
+                2018 when I started out as a Robotic Process Automation
                 Engineer.
               </p>
             </div>
             <p className="text-sm py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto  text-center">
               As of late, I have been fascinated with developing web apps and
               doing Full Stack Development. As you&apos;ll see below, the
-              projects I have been working on lately are React.js with various
+              projects I have recently been working on are React.js with various
               backend setups.
             </p>
           </div>
