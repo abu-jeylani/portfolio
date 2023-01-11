@@ -25,9 +25,11 @@ export default function Navbar({}) {
     <div
       className={`font-mono sticky top-0 left-0 md:flex w-full pt-3  dark:bg-gray-900 dark:text-white justify-between z-10 h-12  bg-white drop-shadow-sm  `}
     >
-      <div className="flex pl-4 gap-10 text-lg">
-        <Link href="/">abu.io</Link>
-        <div className=" m-1  ">
+      <div className="flex pl-4 gap-10 ">
+        <Link href="/" className="text-2xl">
+          abu.io
+        </Link>
+        <div className=" my-2 ">
           {darkMode ? (
             <BsSun
               onClick={() => toggleDarkMode(!darkMode)}
@@ -50,9 +52,7 @@ export default function Navbar({}) {
             className={` ${darkMode ? "text-white" : " text-black"}`}
           />
         ) : (
-          <BiMenu
-            className={` text-white ${darkMode ? "text-white" : "text-black"}`}
-          />
+          <BiMenu className={` ${darkMode ? "text-white" : "text-black"}`} />
         )}
       </div>
 
