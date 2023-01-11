@@ -25,31 +25,34 @@ export default function Home() {
               2018 when I started out as a Robotic Process Automation Engineer.
             </p>
           </div>
-          <p className="text-sm py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto  text-center">
+          <p className="text-sm pt-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto  text-center">
             As of late, I have been fascinated with developing web apps and
             doing Full Stack Development. As you&apos;ll see in the projects
             section, the projects I have been working on are React.js with
             various backend setups.
           </p>
-        </div>
-        <div className="text-5xl flex justify-center gap-x-16  text-black dark:text-gray-400  ">
-          <a
-            href="https://github.com/abu-jeylani"
-            className="transition duration-200 hover:scale-125"
-          >
-            <AiFillGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/abu-m-5884a676/IMG_7967"
-            className="transition duration-200 hover:scale-125"
-          >
-            <AiFillLinkedin />
-          </a>
-        </div>
-        <div className="h-20 dark:text-gray-200 font-mono flex justify-center mt-12 underline underline-offset-4 text-xs">
-          <Link href="/projects" className="text-teal-600 hover:text-teal-400">
-            See Projects
-          </Link>
+          <div className="text-5xl mt-20 flex justify-center gap-x-16  text-black dark:text-gray-400  ">
+            <a
+              href="https://github.com/abu-jeylani"
+              className="transition duration-200 hover:scale-125"
+            >
+              <AiFillGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abu-m-5884a676/IMG_7967"
+              className="transition duration-200 hover:scale-125"
+            >
+              <AiFillLinkedin />
+            </a>
+          </div>
+          <div className="h-20 dark:text-gray-200 font-mono flex justify-center mt-12 underline underline-offset-4 text-xs">
+            <Link
+              href="/projects"
+              className="text-teal-600 hover:text-teal-400"
+            >
+              See Projects
+            </Link>
+          </div>
         </div>
       </section>
     </Layout>

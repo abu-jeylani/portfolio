@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <Layout>
       <div className=" flex flex-col w-10/12 mx-auto font-mono">
-        <h1 className="dark:text-white text-3xl pt-10 mx-auto pb-10 ">
+        <h1 className="dark:text-white text-2xl pt-16 mx-auto pb-4 ">
           Projects
         </h1>
         <ProjectCard

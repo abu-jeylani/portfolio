@@ -23,7 +23,7 @@ export default function Navbar({}) {
 
   return (
     <div
-      className={`font-mono sticky top-0 left-0 md:flex w-full pt-3  dark:bg-gray-900 dark:text-white justify-between z-10 h-12  bg-white drop-shadow-sm  `}
+      className={`font-mono sticky top-0 left-0 md:flex w-full pt-3  dark:bg-gray-900 dark:text-white justify-between z-10 h-12  bg-white  drop-shadow-md dark:border-b-2 dark:border-gray-800 `}
     >
       <div className="flex pl-4 gap-10 ">
         <Link href="/" className="text-2xl">
@@ -44,7 +44,7 @@ export default function Navbar({}) {
         </div>
       </div>
       <div
-        className="md:hidden absolute top-0 right-6 text-2xl pt-3"
+        className="md:hidden absolute top-0 right-6 text-2xl pt-5"
         onClick={() => setOpen(!open)}
       >
         {open ? (
@@ -68,7 +68,7 @@ export default function Navbar({}) {
           <Link href="/projects"> Projects</Link>
         </li>
         <li
-          className="dark:hover:text-teal-600 hover:text-gray-500 hover:cursor-pointer md:pb-0 pb-3"
+          className="dark:hover:text-teal-600 hover:text-gray-500 hover:cursor-pointer md:pb-0 pb-3 drop-shadow-2xl md:border-none dark:border-b-2 dark:border-gray-800"
           onClick={() => downloadPDF()}
         >
           Download Resume
