@@ -12,7 +12,7 @@ export default function Home() {
           <div className="pt-10 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto text-center">
             <div className="mb-10">
               <h1 className="mb-1 font-mono text-4xl text-black-100">
-                <span className="inline-flex h-20 pt-2 dark:text-teal-600 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
+                <span className="inline-flex h-20 pt-10 dark:text-white overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
                   hi, I&apos;m Abu
                 </span>
                 <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>{" "}
